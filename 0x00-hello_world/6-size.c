@@ -4,7 +4,6 @@
  * code by Nneoma
  * Return: 0
 */
-main(void)
 int main(void)
 {
 	char a;
