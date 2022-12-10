@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unstid.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * Descrition: prints char below 10
