@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return - Always 0 (sucess)
+ * Return - Always 0 (Sucess)
  */
 
 int main(void)
@@ -12,8 +12,7 @@ int main(void)
 
 	c = 'a';
 	while
-		(c <= 'z')
-		{
+		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
