@@ -2,11 +2,9 @@
 #include <unistd.h>
 /**
  * main - Entry point
- *
- * Return - Always 1 (Sucess)
+ * Description: prints the alphabet in lowercase\n
+ * Return - Always 0 (Sucess)
  */
-
-
 int main(void)
 {
 	char c;
