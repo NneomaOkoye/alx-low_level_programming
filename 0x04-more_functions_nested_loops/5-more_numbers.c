@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - mbr fct
+ * more_numbers - nmbr fct
  * Nneoma file
  * Return: no return
  */
@@ -18,7 +18,7 @@ int i, j;
 			_putchar('1');
 			_putchar(j % 10 + '0');
 		}
-			_puchar('\n');
+			_putchar('\n');
 	}
 }
 
