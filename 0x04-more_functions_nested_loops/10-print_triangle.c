@@ -10,7 +10,7 @@
 
 void print_triangle(int size)
 {
-	int row, hashes, space;
+	int row, hashes, spaces;
 
 	if (size <= 0)
 	{
