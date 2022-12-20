@@ -2,7 +2,7 @@
 
 /**
  * _puts - prints a string and a new line
- * @str: the string to print
+ * @str: pointer to a string to print
  *
  * Return: 0
  */
@@ -11,7 +11,7 @@ void _puts(char *str)
 {
 	int i = 0;
 
-	while (str[i]
+	while (str[i])
 	{
 		_putchar(str[i]);
 		i++;
