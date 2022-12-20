@@ -5,7 +5,7 @@
  *
  * Return: 0 is success
  */
-int puts_half(char *str)
+void puts_half(char *str)
 {
 	int string = 0, n;
 
