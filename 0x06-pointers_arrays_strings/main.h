@@ -1,11 +1,12 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
  * File: All prototypes for the project
  * File name : main.h
  * owner: Nneoma
  */
+/*nneoma*/
 
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -20,4 +21,4 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r);
 void print_buffer(char *b, int size);
 _putchar
 
-#endif
+#endif /*nneoma*/
