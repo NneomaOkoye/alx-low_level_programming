@@ -43,7 +43,7 @@ char *argstostr(int ac, char **av)
 		{
 			result[count++] = av[i][j];
 		}
-		reult[count++] '\n;
+		result[count++] = '\n';
 	}
 
 	result[t_count] = '\0';
