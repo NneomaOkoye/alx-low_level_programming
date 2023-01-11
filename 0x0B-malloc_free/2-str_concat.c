@@ -1,4 +1,4 @@
-#incllude "main.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; i < l1; i++)
 		*(s + i) = *(s1 + i);
 
-	for (i = 0; i < l1; i <= l2; j++, i++)
+	for (i = 0, j = l1; i <= l2; j++, i++)
 		*(s + j) = *(s2 + i);
 
 	return (s);
