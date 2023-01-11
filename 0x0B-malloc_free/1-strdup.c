@@ -19,7 +19,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return ('\0');
 
-	whilel(*(str + lenght_of_string) != '\0')
+	while (*(str + lenght_of_string) != '\0')
 		legth_of_string++;
 
 	length_of string++;
