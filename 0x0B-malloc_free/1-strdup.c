@@ -20,9 +20,9 @@ char *_strdup(char *str)
 		return ('\0');
 
 	while (*(str + length_of_string) != '\0')
-		length_of_string ++;
+		length_of_string++;
 
-	length_of_string ++;
+	length_of_string++;
 
 	alloc_mem = malloc(sizeof(*str) * length_of_string);
 
