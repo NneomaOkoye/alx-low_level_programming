@@ -8,7 +8,7 @@
  * @Return: The index of the first element for which the cmp function
  * does not return 0; -1 if no elements matches or size <= 0.
  */
-void int_index(int *array, int size, int (*cmp)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
 
