@@ -3,7 +3,7 @@
 #include "3-calc.h"
 
 /**
- * main - performs simple operations
+ * main - program that performs simple operations
  * @argc: number of arguments passed
  * @argv: array of pointers to arguments
  *
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exist(98);
+		exit(98);
 	}
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
