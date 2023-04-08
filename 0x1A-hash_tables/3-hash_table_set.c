@@ -4,8 +4,9 @@
  * hash_table_set - To add or update an element in a hash table.
  * @key: The key to add, it can not be an empty string.
  * @value: Value associated with key.
+ * @ht: A pointer to the hash table.
  *
- * Return: If Falure - 0.
+ * Return: Upon Failure - 0.
  * 	Otherwise - 1.
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
@@ -36,6 +37,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (new == NULL)
 	{
 		free(value_copy);
+		return (0);
+	}
+	new->key = strdup(key);
+	if (new->key == NULL)
+	{
+		free(new);
 		return (0);
 	}
 	new->value = value_copy;
