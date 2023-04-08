@@ -3,13 +3,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include<string.h>
+#include <string.h>
 
 /**
  * @key: The key, the string used
  * A key is also unique, different from other keys used
  * @next: This is a pointer to the next node of the list
- * struct hash_node_s: A node of a hash table
+ * struct hash_node_s - A node of a hash table
  * @value: The value corresponding to a key
  */
 typedef struct hash_node_s
